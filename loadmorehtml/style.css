@@ -1,0 +1,58 @@
+body{
+    background-image:url("stellar.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+    color: white;
+}
+
+.container{
+    width: 55%;
+    margin: 0 auto;
+    border: 0px solid black;
+    padding: 10px 10px;
+    align-content: center;
+    background-color: #111;
+}
+
+.post{
+    min-height: 160px;
+    padding: 5px;
+    border: 10px solid ;
+    margin-bottom: 15px;
+    border-image: url(https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/601220/717f8645fa31bec75d343abced8761672254f74d.png) 12% stretch;
+}
+
+.post h2{
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+
+.post p{
+    letter-spacing: 1px;
+    text-overflow: ellipsis;
+    line-height: 25px;
+}
+
+/* Load more */
+.load-more{
+    width: 99%;
+    background: #15a9ce;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    font-family: sans-serif;
+}
+
+.load-more:hover{
+    cursor: pointer;
+}
+/* more link */
+.more{
+    color: blue;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
